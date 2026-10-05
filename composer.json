@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/doctrine-doctrine-bundle",
+    "description": "Tyhp type definitions for doctrine/doctrine-bundle 3.3.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.3.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/doctrine-doctrine-bundle-impl": "~3.3.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/doctrine-doctrine-bundle-impl"
+        }
+    }
+}
